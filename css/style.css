@@ -1,0 +1,72 @@
+.background {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  font-family: Montserrat, serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.home {
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.navbar-menu {
+  display: flex;
+  align-items: flex-end;
+}
+.navbar-menu li {
+  padding-right: 20px; 
+}
+.navbar-menu-link {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  text-decoration: none;
+}
+.home-content {  
+  text-align: center;
+  
+}
+.home-content-h1 {
+  padding-top: 400px; 
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.home-content-h3 {
+  padding-top: 50px; 
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+.home-content-button{
+  padding-top: 40px;
+}
+.btn {
+  color: white;
+  font-family: Montserrat;
+  padding: 20px 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 2px;
+
+}
